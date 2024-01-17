@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Space+Grotesk&display=swap');
 
-body {
+.body-old {
     margin: 0px;
     color: #000000FF;
     background-color: #141414FF;
+}
+
+body {
+    margin: 0px;
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -25,11 +33,12 @@ h2 {
 }
 
 p {
+    text-align:center;
+    text-wrap: balance;
     font-family: Oswald;
     color:#E1E1E1FF;
     font-weight: 300;
     font-size: 25px;
-    padding-left: 50px;
 }
 
 li {
@@ -42,38 +51,56 @@ li {
 }
 
 li a {
-    display: inline;
+    
     color: white;
     text-align: center;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-decoration: none;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
 }
 
 li a:hover {
-    background-color: #141414FF;
+    background-color: #535353a4;
 }
 
 ul {
     display:inline;
+    vertical-align:super;
     list-style-type: none;
     margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-left: 20px;
 }
 
 .header-div {
+    overflow: hidden;
     padding-left: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 0px;
-    background-color: #232323c4;
+    background-color: #232323FF;
 }
 
 .desc-div {
-    
+    align-self: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 100px;
+    background-color: #535353aa;
+    background-size: cover;
+}
+
+.footer-div {
+    overflow: hidden;
+    vertical-align: bottom;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+    background-color: #232323FF;
 }
