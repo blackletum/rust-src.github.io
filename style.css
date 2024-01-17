@@ -7,6 +7,7 @@ body {
 }
 
 h1 {
+    display: inline;
     font-family: Oswald;
     font-weight: 700;
     font-size: 50px;
@@ -20,6 +21,37 @@ p {
     font-weight: 300;
     font-size: 25px;
     padding-left: 50px;
+}
+
+li {
+    display: inline;
+    font-family: Oswald;
+    font-size: 25px;
+    color: #E1E1E1FF;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+li a:hover {
+    background-color: #111;
+    margin: 0px;
+}
+
+ul {
+    display:inline;
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0;
 }
 
 .header-div {
