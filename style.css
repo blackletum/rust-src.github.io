@@ -2,20 +2,21 @@
 
 body {
     margin: 0px;
-    color: rgb(225, 225, 225);
-    background-color: rgb(20, 20, 20);
+    color: #000000FF;
+    background-color: #141414FF;
 }
 
 h1 {
     font-family: Oswald;
     font-weight: 700;
     font-size: 50px;
-    color: rgb(225, 225, 225);
-    background-color: rgba(0, 0, 0, 0);
+    color: #E1E1E1FF;
+    background-color: #00000000;
 }
 
 p {
     font-family: Oswald;
+    color:#E1E1E1FF;
     font-weight: 300;
     font-size: 25px;
     padding-left: 50px;
@@ -26,5 +27,5 @@ p {
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 0px;
-    background-color: rgba(35, 35, 35, 100);
+    background-color: #232323c4;
 }
