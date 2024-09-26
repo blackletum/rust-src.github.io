@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
     font-family: Oswald;
     font-weight: 500;
     font-size: 50px;
@@ -33,7 +33,7 @@ h2 {
 }
 
 p {
-    text-align:center;
+    text-align:left;
     text-wrap: balance;
     font-family: Oswald;
     color:#E1E1E1FF;
